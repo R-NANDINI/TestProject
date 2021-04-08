@@ -23,7 +23,7 @@ public class TestCase {
 	@Test
 	public void test() 
 	{
-		//System.out.println("Your actual test case");
+		System.out.println("Your actual test case");
 		assertEquals(4,FindResult.FindMaxNum(new int[] {1,2,3,4}));
 		//assertEquals(0,FindResult.FindMaxNum(new int[] {1,2,3,4}));
 		assertTrue(FindResult.EvenOrOdd(2));
